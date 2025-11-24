@@ -1,8 +1,9 @@
+//Imports the workout model, express and creates a router object.
 const express = require('express');
 const router = express.Router();
 const Workout = require('../models/workout');
 
-// This is our Lnading page. (Splash Page)
+// This is our Landing page. (Splash Page)
 router.get('/', (req, res) => {
   res.render('index');
 });
@@ -60,4 +61,5 @@ router.post('/workouts/:id/delete', async (req, res) => {
   }
 });
 
+//Exports the router object
 module.exports = router;

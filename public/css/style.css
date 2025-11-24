@@ -1,14 +1,16 @@
-/* This is for the styling. */
+/* This is for the styling the body */
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
 }
 
+/* This is for the styling the label */
 label {
   display: block;
   margin-top: 10px;
 }
 
+/* This is for the styling the button */
 button {
   margin-top: 10px;
   padding: 6px 12px;
