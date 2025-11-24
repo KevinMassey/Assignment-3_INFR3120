@@ -1,0 +1,16 @@
+<h1>Workout Tracker</h1>
+
+<%# This section is to add an exercise%>
+<form action="/workouts/add" method="POST">
+  <label>Exercise:</label>
+  <input type="text" name="exercise" required>
+
+  <label>Reps:</label>
+  <input type="number" name="reps" required>
+
+  <label>Weight (lbs):</label>
+  <input type="number" name="weight">
+
+  <button type="submit">Add Workout</button>
+</form>
+
